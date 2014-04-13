@@ -1,0 +1,40 @@
+{
+  "name": "bouzuya-fixtures",
+  "version": "0.1.0",
+  "description": "bouzuya's fixtures.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --recursive --reporter spec",
+    "coveralls": "jscoverage lib\nBOUZUYA_FIXTURES_COV=1 mocha --recursive --reporter mocha-lcov-reporter | coveralls"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bouzuya/bouzuya-fixtures.git"
+  },
+  "keywords": [
+    "fixtures",
+    "bouzuya"
+  ],
+  "author": {
+    "name": "bouzuya",
+    "email": "bouzuya@gmail.com",
+    "url": "http://bouzuya.net/"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bouzuya/bouzuya-fixtures/issues"
+  },
+  "homepage": "https://github.com/bouzuya/bouzuya-fixtures",
+  "devDependencies": {
+    "chai": "1.9.1",
+    "coveralls": "2.10.0",
+    "jscoverage": "0.3.8",
+    "mocha": "1.18.2",
+    "mocha-lcov-reporter": "0.0.1",
+    "sinon": "1.9.1",
+    "sinon-chai": "2.5.0"
+  },
+  "dependencies": {
+    "q": "1.0.1"
+  }
+}
